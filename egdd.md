@@ -1,4 +1,4 @@
-# Chemistry Card Game!
+# NaCl/NaOH (The base is under a salt - if you don't get this, retake general chem)
 
 ## Elevator Pitch
 
