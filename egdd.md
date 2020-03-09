@@ -1,4 +1,4 @@
-# NaCl/NaOH (The base is under a salt - if you don't get this, retake general chem)
+# NaCl/NaOH The base is under a salt - if you don't get this, retake general chem :D
 
 ## Elevator Pitch
 
