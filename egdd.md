@@ -12,8 +12,8 @@
 - *Legends of Runeterra*:
   - Medium: *(Television, Games, Literature, Movies, etc.)*
   - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
+- *Honors General Chemistry 111*:
+  - Medium: *Classroom lecture*
   - Explanation: *In one paragraph or less, explain why this is an influence.*
 
 ## Core Gameplay Mechanics (Brief)
