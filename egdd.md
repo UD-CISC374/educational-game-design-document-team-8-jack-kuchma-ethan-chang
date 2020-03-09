@@ -1,4 +1,4 @@
-# Game Name!
+# Chemistry Card Game!
 
 ## Elevator Pitch
 
@@ -6,10 +6,10 @@
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
+- *Hearthstone*:
+  - Medium: *Video Game*
   - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
+- *Legends of Runeterra*:
   - Medium: *(Television, Games, Literature, Movies, etc.)*
   - Explanation: *In one paragraph or less, explain why this is an influence.*
 - *Influence #3*:
