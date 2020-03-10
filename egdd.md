@@ -8,13 +8,13 @@
 
 - *Hearthstone*:
   - Medium: *Video Game*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+  - Explanation: *Hearthstone is a turn-based card game in which the player fights another with cards and spells, each with varying hitpoints and damage. This game is similar to this as it will be a turn-based card game. But rather than health, cards will have moles for health.*
 - *Legends of Runeterra*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+  - Medium: *Video Game*
+  - Explanation: *Legends of Runeterra is a turn-based card game in which the player fights another with cards and spells. This game has a similar feel to it as it is also a turn-based card game with the goal of defeating the enemy.*
 - *Honors General Chemistry 111*:
-  - Medium: *Classroom lecture*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+  - Medium: *UD classroom lecture*
+  - Explanation: *In Ethan's honors general chemistry class, one topic that was reviewed was limiting reactants and acid-base reactions. Combining these two, this game involves those topics and attempts to appeal to students learning chemistry.*
 
 ## Core Gameplay Mechanics (Brief)
 
