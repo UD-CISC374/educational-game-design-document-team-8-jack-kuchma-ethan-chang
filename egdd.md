@@ -1,7 +1,7 @@
 # NaCl/NaOH The base is under a salt - if you don't get this, retake general chem :D
 
 ## Elevator Pitch
-Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first). Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays.
+Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first).Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays. In the current system I have in my head, the damage and health of a card is the same, which seems odd in terms of card game, but normal in terms of chemistry. Frankly, I don't see it too much of a problem since it's an educational game, not an esports game.
 
 *A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
 
@@ -21,24 +21,31 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 *Give a very high-level description of any core gameplay mechanics*
 
+- *Each player starts with 4 cards in their hand and draws one from their deck every turn.*
 - *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player*
 - *Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.*
 - *Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.*
 - *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction. Health points is determined by how many moles of H+ or OH- ions left in the acid or base, respectively.*
+- *Attacking the other player with a card deals damage based on the card's molarity* (Consider changing 'molarity' to something else)
+- *When a player's health reaches 0, they lose*
 
 # Learning Aspects
 
 ## Learning Domains
 
 *Briefly list any and all of the disciplines and learning domains for this subject.*
+*Introductory Chemistry*
 
 ## Target Audiences
 
 *Who are your learners?*
+*Novice chemists with a little prior knowledge in chemistry*
+*Appropriate for middle school and high school kids and perhaps adults who are young at heart*
 
 ## Target Contexts
 
 *Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+*This would be assigned as supplementary practice in a course teaching introductory chemistry, specifically during the unit on acid/base chemistry, which often comes after limiting reactants*
 
 ## Learning Objectives
 
