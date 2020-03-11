@@ -40,12 +40,14 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 ## Target Audiences
 
 *Who are your learners?*
+
 *Novice chemists with a little prior knowledge in chemistry*
 *Appropriate for middle school and high school kids and perhaps adults who are young at heart*
 
 ## Target Contexts
 
 *Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+
 *This would be assigned as supplementary practice in a course teaching introductory chemistry, specifically during the unit on acid/base chemistry, which often comes after limiting reactants*
 
 ## Learning Objectives
