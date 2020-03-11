@@ -1,6 +1,7 @@
 # NaCl/NaOH The base is under a salt - if you don't get this, retake general chem :D
 
 ## Elevator Pitch
+Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first). Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays.
 
 *A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
 
@@ -20,10 +21,10 @@
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player*
+- *Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.*
+- *Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.*
+- *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction. Health points is determined by how many moles of H+ or OH- ions left in the acid or base, respectively.*
 
 # Learning Aspects
 
