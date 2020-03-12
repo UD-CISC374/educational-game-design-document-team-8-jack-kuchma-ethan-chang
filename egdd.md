@@ -48,14 +48,15 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 *Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
 
-*This would be assigned as supplementary practice in a course teaching introductory chemistry, specifically during the unit on acid/base chemistry, which often comes after limiting reactants*
+*This would be assigned as supplementary practice in a course teaching introductory chemistry, specifically during the unit on acid/base chemistry, which often comes after limiting reactants.*
 
 ## Learning Objectives
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
+- *Identify limiting reactants*: *By the end of the lesson, students will be able to identify the limiting and excess reactant in an acid-base reaction.*
+- *Calculate limiting reactants*: *By the end of the lesson, students will be able to calculate the moles of an acid or base used in a chemical reaction and determine how many moles are left in excess.*
+- *Calculate moles from molarity*: *By the end of the lesson, students will be able to calculate the moles of an acid or base given it's molarity and volume.*
 - *Short Name*: *Formal Learning Objective #3*
 
 ## Prerequisite Knowledge
