@@ -57,7 +57,7 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 - *Identify limiting reactants*: *By the end of the lesson, students will be able to identify the limiting and excess reactant in an acid-base reaction.*
 - *Calculate limiting reactants*: *By the end of the lesson, students will be able to calculate the moles of an acid or base used in a chemical reaction and determine how many moles are left in excess.*
 - *Calculate moles from molarity*: *By the end of the lesson, students will be able to calculate the moles of an acid or base given it's molarity and volume.*
-- *Short Name*: *Formal Learning Objective #3*
+- *Short Name*: *Formal Learning Objective #4*
 
 ## Prerequisite Knowledge
 
@@ -97,18 +97,18 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 *Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
 
-- *Player mode #1*: *Description*
+- *Single-player*: *You repeatedly draw, play, and attack cards until the enemy is defeated.*
 - *Player mode #2*: *Description*
 - *etc.*
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
+- *Neutralize enemy cards*:
+    - Description: *When your moles of acid/base is greater than the enemy's base/acid, their card is neutralized, leaving less enemies on the board.*
+    - Alignment: *Learning to predict the outcome of reactions and know which reactant is left over in excess aligns with the learning objectives.*
+- *Attack the enemy base*:
+    - Description: *Beat the enemy by attacking it with cards. When its health reaches 0, you win.*
+    - Alignment: *You have to go through all the learninig objectives of being able to calculate and predict the outcomes of reactions to beat the boss.*
 - *etc.*
 
 # Procedures/Actions
