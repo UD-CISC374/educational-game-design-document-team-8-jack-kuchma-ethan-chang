@@ -63,21 +63,24 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 *What do they need to know prior to trying this game?*
 
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- *Prior to the game, players need to be able to define molarity and identify its units.*
+- *Prior to the game, players need to be able to explain the reaction between a strong acid and strong base.*
 
 ## Assessment Measures
 
 *Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
+*A short pre-test and matching post-test will be designed to assess student learning*
 
 *If proposing a new instrument, briefly and concisely list some example assessment questions.*
+- *Given the molarity and volume of a solution, calculate the moles of solute.*
+- *Given the number of moles of an acid and base, determine the limiting reactant and how much excess reactant is left over.*
 
 # What sets this project apart?
 
 *Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
 
-- *Reason #1*
-- *Reason #2*
+- *Most introductory activities regarding acid-base reactions and limiting reactants involve worksheets or labwork, this is a (hopefully) fun card game.*
+- *The gameplay of adding an acid/base to the water trap card follows lab safety in that you should always mix those two in that order and not the other way around.*
 - *Reason #3*
 - *Reason #4*
 - *etc.*
@@ -87,6 +90,8 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 ## Player Interaction Pattern
 
 *Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+*Ideally multiplayer but we don't know how to code that.*
+*This is a game for one person. They draw cards, play them, and use them to attack the enemy.*
 
 ## Player Modes
 
