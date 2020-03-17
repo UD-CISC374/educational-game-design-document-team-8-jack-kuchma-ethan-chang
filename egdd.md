@@ -108,12 +108,14 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
     - Alignment: *Learning to predict the outcome of reactions and know which reactant is left over in excess aligns with the learning objectives.*
 - *Attack the enemy base*:
     - Description: *Beat the enemy by attacking it with cards. When its health reaches 0, you win.*
-    - Alignment: *You have to go through all the learninig objectives of being able to calculate and predict the outcomes of reactions to beat the boss.*
+    - Alignment: *You have to go through all the learninig objectives of being able to calculate and predict the outcomes of reactions to beat the enemy.*
 - *etc.*
 
 # Procedures/Actions
 
 *Describe the control scheme and what actions a user can take in the game.*
+
+*You can drag cards from your hand to the battlefield. You can drag cards on the battlefield from your side to a card on the other side to attack it.*
 
 # Rules
 
