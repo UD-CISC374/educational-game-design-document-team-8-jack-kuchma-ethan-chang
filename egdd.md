@@ -98,8 +98,6 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 *Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
 
 - *Single-player*: *You repeatedly draw, play, and attack cards until the enemy is defeated.*
-- *Player mode #2*: *Description*
-- *etc.*
 
 # Gameplay Objectives
 
@@ -109,7 +107,6 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 - *Attack the enemy base*:
     - Description: *Beat the enemy by attacking it with cards. When its health reaches 0, you win.*
     - Alignment: *You have to go through all the learninig objectives of being able to calculate and predict the outcomes of reactions to beat the enemy.*
-- *etc.*
 
 # Procedures/Actions
 
@@ -173,10 +170,8 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
   - *Texture 2*
   - *...*
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
-
+  - *Background: The background should be a dirt field between two castles*
+  
 
 ## Audio
 
