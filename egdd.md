@@ -184,14 +184,20 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 *Game region/phase/time are ways of designating a particularly important place in the game.*
 
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - *General gameplay*: *Laboratory sounds*, *Light, adventurous music.*
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
+  - *Placing a card on the board*: *Light smash sound*, *Light pop sound*
+  - *Attacking another card*: *Clink of bottles*, *Bubbling sound*
+  - *Using a water spell card*: *Splash of water*
+  - *Using any other spell card*: *Sounds of mystical magic being casted*
+  - *A card attacking the base*: *Corrosive sounds*, *Fizzing sound*
+  - *Clicking end turn*: *Click sound*
+  - *Drawing a card*: *Sound of flipping a page*
+  - *Win*: *Fanfare*
+  - *Lose*: *Explosion*
 
 
 # Metadata
