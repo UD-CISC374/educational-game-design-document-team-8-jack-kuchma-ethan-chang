@@ -151,11 +151,13 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 
 *Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
 
-# Assets Needed
+# Assets 
 
 ## Aethestics
 
 *Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+
+*The aesthetics should be serious and adventurous. The game should have an engrossing feel. This should encourage the player to think about strategy and predict outcomes of different moves.
 
 ## Graphical
 
