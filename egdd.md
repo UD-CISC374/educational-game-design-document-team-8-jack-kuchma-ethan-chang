@@ -4,6 +4,7 @@
 Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first).Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays. In the current system I have in my head, the damage and health of a card is the same, which seems odd in terms of card game, but normal in terms of chemistry. Frankly, I don't see it too much of a problem since it's an educational game, not an esports game. OR the cards have stats of 'moles' and 'liters'. When the card attacks another, the moles are subtracted and the liters are added. Only the molarity matters when attacking face, and it's up to the player to calculate the molarity of the cards. In short, card vs. card, moles matter in a reaction and card vs face, molarity matters for damage.
 
 *A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
+This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards.
 
 ## Influences (Brief)
 
@@ -22,11 +23,11 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 *Give a very high-level description of any core gameplay mechanics*
 
 - *Each player starts with 4 cards in their hand and draws one from their deck every turn.*
-- *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player*
+- *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.*
 - *Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.*
 - *Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.*
-- *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction. Health points is determined by how many moles of H+ or OH- ions left in the acid or base, respectively.*
-- *Attacking the other player with a card deals damage based on the card's molarity* (Consider changing 'molarity' to something else)
+- *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.*
+- *Attacking the other player with a card deals damage based on the card's molarity*
 - *When a player's health reaches 0, they lose*
 
 # Learning Aspects
@@ -57,7 +58,6 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 - *Identify limiting reactants*: *By the end of the lesson, students will be able to identify the limiting and excess reactant in an acid-base reaction.*
 - *Calculate limiting reactants*: *By the end of the lesson, students will be able to calculate the moles of an acid or base used in a chemical reaction and determine how many moles are left in excess.*
 - *Calculate moles from molarity*: *By the end of the lesson, students will be able to calculate the moles of an acid or base given it's molarity and volume.*
-- *Short Name*: *Formal Learning Objective #4*
 
 ## Prerequisite Knowledge
 
@@ -72,8 +72,8 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 *A short pre-test and matching post-test will be designed to assess student learning*
 
 *If proposing a new instrument, briefly and concisely list some example assessment questions.*
-- *Given the molarity and volume of a solution, calculate the moles of solute.*
 - *Given the number of moles of an acid and base, determine the limiting reactant and how much excess reactant is left over.*
+- *Given the number of moles of an acid and base, determine the number of moles of a salt and water are formed.*
 
 # What sets this project apart?
 
@@ -81,17 +81,15 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 - *Most introductory activities regarding acid-base reactions and limiting reactants involve worksheets or labwork, this is a (hopefully) fun card game.*
 - *The gameplay of adding an acid/base to the water trap card follows lab safety in that you should always mix those two in that order and not the other way around.*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- *The gameplay of molarity doing damage to player resembles the fact that higher concentrations of acids and bases generally have stronger potency.*
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
 *Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
-*Ideally multiplayer but we don't know how to code that.*
-*This is a game for one person. They draw cards, play them, and use them to attack the enemy.*
+
+*This is a game for one person. They draw cards, play them, and use them to attack the enemy and their cards.*
 
 ## Player Modes
 
@@ -112,7 +110,7 @@ Note (for later): To avoid beating the game by placing cards and 'attacking face
 
 *Describe the control scheme and what actions a user can take in the game.*
 
-*You can drag cards from your hand to the battlefield. You can drag cards on the battlefield from your side to a card on the other side to attack it.*
+*You can drag cards from your hand to the battlefield -- this card can't attack until your next turn. You can drag cards on the battlefield from your side to a card on the other side to attack it. You can also drag cards on the battlefield from your side to the enemy directly to attack them.*
 
 # Rules
 
