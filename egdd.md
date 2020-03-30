@@ -4,7 +4,7 @@
 Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first).Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays. In the current system I have in my head, the damage and health of a card is the same, which seems odd in terms of card game, but normal in terms of chemistry. Frankly, I don't see it too much of a problem since it's an educational game, not an esports game. OR the cards have stats of 'moles' and 'liters'. When the card attacks another, the moles are subtracted and the liters are added. Only the molarity matters when attacking face, and it's up to the player to calculate the molarity of the cards. In short, card vs. card, moles matter in a reaction and card vs face, molarity matters for damage.
 
 *A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
-This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards.
+This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards. Take the enemy's health to 0 before they do to yours.
 
 ## Influences (Brief)
 
@@ -102,15 +102,15 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 - *Neutralize enemy cards*:
     - Description: *When your moles of acid/base is greater than the enemy's base/acid, their card is neutralized, leaving less enemies on the board.*
     - Alignment: *Learning to predict the outcome of reactions and know which reactant is left over in excess aligns with the learning objectives.*
-- *Attack the enemy base*:
+- *Attack the enemy*:
     - Description: *Beat the enemy by attacking it with cards. When its health reaches 0, you win.*
-    - Alignment: *You have to go through all the learninig objectives of being able to calculate and predict the outcomes of reactions to beat the enemy.*
+    - Alignment: *You have to go through all the learning objectives of being able to calculate and predict the outcomes of reactions to clear their board and beat the enemy.*
 
 # Procedures/Actions
 
 *Describe the control scheme and what actions a user can take in the game.*
 
-*You can drag cards from your hand to the battlefield -- this card can't attack until your next turn. You can drag cards on the battlefield from your side to a card on the other side to attack it. You can also drag cards on the battlefield from your side to the enemy directly to attack them.*
+*You can drag cards from your hand to the battlefield -- these cards can't attack until your next turn. You can drag cards on the battlefield from your side to a card on the other side to attack it. You can also drag cards on the battlefield from your side to the enemy directly to attack them.*
 
 # Rules
 
@@ -160,13 +160,10 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
+  - *The player's castles: Needs to have at least three levels of ruin (healthy, partially destroyed, destroyed)*
+  - *Cards: Needs to have the name and picture of the acid or base. Also needs to display the card's stats (molarity and moles)*
 - Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - *N/A*
 - Environment Art/Textures:
   - *Background: The background should be a dirt field between two castles*
   
@@ -186,7 +183,7 @@ This is a turn-based card game. The player plays against a bot and attempts to d
   - *Attacking another card*: *Clink of bottles*, *Bubbling sound*
   - *Using a water spell card*: *Splash of water*
   - *Using any other spell card*: *Sounds of mystical magic being casted*
-  - *A card attacking the base*: *Corrosive sounds*, *Fizzing sound*
+  - *A card attacking a player*: *Corrosive sounds*, *Fizzing sound*
   - *Clicking end turn*: *Click sound*
   - *Drawing a card*: *Sound of flipping a page*
   - *Win*: *Fanfare*
