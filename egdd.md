@@ -1,34 +1,34 @@
 # NaCl/NaOH The base is under a salt
 
 ## Elevator Pitch
+Note (for later): To avoid beating the game by placing cards and 'attacking face,' the opponent should have taunt cards (maybe called 'hazard' in that they need to be neutralized/attacked first).Spell card called 'water' could reduce the acid/base's concentration by a half, but it's bad safety practice to add water to an acid/base (you should add acids/bases to water), so it would have to be more like a trap card in that it affects the next acid/base card the other player plays. In the current system I have in my head, the damage and health of a card is the same, which seems odd in terms of card game, but normal in terms of chemistry. Frankly, I don't see it too much of a problem since it's an educational game, not an esports game. OR the cards have stats of 'moles' and 'liters'. When the card attacks another, the moles are subtracted and the liters are added. Only the molarity matters when attacking face, and it's up to the player to calculate the molarity of the cards. In short, card vs. card, moles matter in a reaction and card vs face, molarity matters for damage.
 
 *A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
-
 This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards. Take the enemy's health to 0 before they do to yours.
 
 ## Influences (Brief)
 
-- Hearthstone:
-  - Medium: Video Game
-  - Explanation: Hearthstone is a turn-based card game in which the player fights another with cards and spells, each with varying hitpoints and damage. This game is similar to this as it will be a turn-based card game. But rather than health, cards will have moles for health.
-- Legends of Runeterra:
-  - Medium: Video Game
-  - Explanation: Legends of Runeterra is a turn-based card game in which the player fights another with cards and spells. This game has a similar feel to it as it is also a turn-based card game with the goal of defeating the enemy.
-- Honors General Chemistry 111:
-  - Medium: UD classroom lecture
-  - Explanation: In Ethan's honors general chemistry class, one topic that was reviewed was limiting reactants and acid-base reactions. Combining these two, this game involves those topics and attempts to appeal to students learning chemistry.
+- *Hearthstone*:
+  - Medium: *Video Game*
+  - Explanation: *Hearthstone is a turn-based card game in which the player fights another with cards and spells, each with varying hitpoints and damage. This game is similar to this as it will be a turn-based card game. But rather than health, cards will have moles for health.*
+- *Legends of Runeterra*:
+  - Medium: *Video Game*
+  - Explanation: *Legends of Runeterra is a turn-based card game in which the player fights another with cards and spells. This game has a similar feel to it as it is also a turn-based card game with the goal of defeating the enemy.*
+- *Honors General Chemistry 111*:
+  - Medium: *UD classroom lecture*
+  - Explanation: *In Ethan's honors general chemistry class, one topic that was reviewed was limiting reactants and acid-base reactions. Combining these two, this game involves those topics and attempts to appeal to students learning chemistry.*
 
 ## Core Gameplay Mechanics (Brief)
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- Each player starts with 4 cards in their hand and draws one from their deck every turn.
-- Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.
-- Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.
-- Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.
-- During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.
-- Attacking the other player with a card deals damage based on the card's molarity
-- When a player's health reaches 0, they lose
+- *Each player starts with 4 cards in their hand and draws one from their deck every turn.*
+- *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.*
+- *Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.*
+- *Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.*
+- *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.*
+- *Attacking the other player with a card deals damage based on the card's molarity*
+- *When a player's health reaches 0, they lose*
 
 # Learning Aspects
 
@@ -115,41 +115,49 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 # Rules
 
 *What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+-*Action Points*: *The player starts out with one action point when the game starts and gains another at the start of turn.This can be used to spend on playing cards and putting them on the board.*
+-*Cards*: *The player can play the cards from their had (provided they have enough action points) and draw one at the start of their turn.*
 
 # Objects/Entities
 
 *What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+- *Cards which the player plays and attacks with*
+- *Board which is going to house the cards when they are played*
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
+- *Turns*: *A player has a turn to play the cards they want from their hand, trade into other cards, and attack the opponent. Each turn the player draws a card.*
+- *Action points*: *Cards cost a certain amount of action points to play. Each turn the player's action points refreshes and gains +1 action point.*
 
-    
 ## Feedback
 
 *Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
+- *If the player tries to do an incorrect move (i.e.: Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.) then they are given a tool tip that the move cannot happen.*
 
 *Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
+- *The longer-term feedback the player will recieve is a stat board in which it could tell things like moles neutralized in reactions, incorrect card moves, etc.*
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
 *Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+- *When the player first opens the game, they could go through a tutorial to get them used to the mechanics and how all the cards interact with each other*
 
 ## Presentation of Content
 
 *Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+- *The tutorial will be multiple, small tutorials, in which it introduces each chemistry concept (acids, bases, etc.), then puts them all together in the regular gamemode.*
 
 ## Story (Brief)
 
 *The Summary or TL;DR version of below*
+- *There is no real canonical story due to it being a casual card game, but will feature notable and memorable characters to help fill in and flesh out the world.*
 
 ## Storyboarding
 
 *Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
+
 
 # Assets 
 
