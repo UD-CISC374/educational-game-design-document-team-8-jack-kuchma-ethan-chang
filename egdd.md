@@ -115,8 +115,8 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 # Rules
 
 *What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
--*Action Points*: *The player starts out with one action point when the game starts and gains another at the start of turn.This can be used to spend on playing cards and putting them on the board.*
--*Cards*: *The player can play the cards from their had (provided they have enough action points) and draw one at the start of their turn.*
+- *Action Points*: *The player starts out with one action point when the game starts and gains another at the start of turn.This can be used to spend on playing cards and putting them on the board.*
+- *Cards*: *The player can play the cards from their had (provided they have enough action points) and draw one at the start of their turn.*
 
 # Objects/Entities
 
