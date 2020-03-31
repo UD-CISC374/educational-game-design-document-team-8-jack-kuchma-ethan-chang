@@ -11,24 +11,24 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 - Hearthstone:
   - Medium: Video Game
   - Explanation: Hearthstone is a turn-based card game in which the player fights another with cards and spells, each with varying hitpoints and damage. This game is similar to this as it will be a turn-based card game. But rather than health, cards will have moles for health.
-- *Legends of Runeterra*:
-  - Medium: *Video Game*
-  - Explanation: *Legends of Runeterra is a turn-based card game in which the player fights another with cards and spells. This game has a similar feel to it as it is also a turn-based card game with the goal of defeating the enemy.*
-- *Honors General Chemistry 111*:
-  - Medium: *UD classroom lecture*
-  - Explanation: *In Ethan's honors general chemistry class, one topic that was reviewed was limiting reactants and acid-base reactions. Combining these two, this game involves those topics and attempts to appeal to students learning chemistry.*
+- Legends of Runeterra:
+  - Medium: Video Game
+  - Explanation: Legends of Runeterra is a turn-based card game in which the player fights another with cards and spells. This game has a similar feel to it as it is also a turn-based card game with the goal of defeating the enemy.
+- Honors General Chemistry 111:
+  - Medium: UD classroom lecture
+  - Explanation: In Ethan's honors general chemistry class, one topic that was reviewed was limiting reactants and acid-base reactions. Combining these two, this game involves those topics and attempts to appeal to students learning chemistry.
 
 ## Core Gameplay Mechanics (Brief)
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- *Each player starts with 4 cards in their hand and draws one from their deck every turn.*
-- *Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.*
-- *Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.*
-- *Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.*
-- *During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.*
-- *Attacking the other player with a card deals damage based on the card's molarity*
-- *When a player's health reaches 0, they lose*
+- Each player starts with 4 cards in their hand and draws one from their deck every turn.
+- Play cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.
+- Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.
+- Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.
+- During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.
+- Attacking the other player with a card deals damage based on the card's molarity
+- When a player's health reaches 0, they lose
 
 # Learning Aspects
 
