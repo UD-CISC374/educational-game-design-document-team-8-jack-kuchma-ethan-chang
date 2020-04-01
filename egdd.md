@@ -2,7 +2,6 @@
 
 ## Elevator Pitch
 
-*A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
 This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards. Take the enemy's health to 0 before they do to yours.
 
 ## Influences (Brief)
@@ -128,7 +127,6 @@ You can drag cards from your hand to the battlefield -- these cards can't attack
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
 ![Concept_Image](Concept_Image.jpg)
 
 
