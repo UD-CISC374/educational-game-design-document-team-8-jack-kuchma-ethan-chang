@@ -2,7 +2,7 @@
 
 ## Elevator Pitch
 
-This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with cards they place down. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards. Take the enemy's health to 0 before they do to yours.
+This is a turn-based card game. The player plays against a bot and attempts to defeat the enemy by attacking it with chemistry cards they place down on the board. These cards are either an acid or base. The cards contain stats of molarity and moles. Molarity is the damage done to the player if it attack a player directly. Moles is the card's health as well as the damage done to other cards. Take the enemy's health to 0 before they do to yours.
 
 ## Influences (Brief)
 
@@ -18,13 +18,13 @@ This is a turn-based card game. The player plays against a bot and attempts to d
 
 ## Core Gameplay Mechanics (Brief)
 
-- Each player starts with 4 cards in their hand and draws one from their deck every turn.
+- Each player starts with 3 cards in their hand and draws one from their deck every turn, including the first turn. The player who goes second (i.e. the enemy bot), will start with 4 cards rather than 3 to balance our the fairness.
 - Play acid or base cards from your hand by clicking and dragging them onto the board, which has seven card spaces for each player. When the card is placed down, it cannot attack until the player's next turn.
 - Click and drag a card from your side of the board to a card on the other side of the board to attack/neutralize it.
 - Acids can only attack bases and vice versa. Acids cannot attack acids and bases cannot attack bases.
 - During an attack between two cards, each card takes damage based on the moles neutralized in the reaction aka the other card's moles. Health points are recalculated and updated for each card. If it's health (moles) is less than or equal to 0, it's destroyed.
-- Attacking the other player directly with a card deals damage based on the card's molarity
-- When a player's health reaches 0, they lose
+- Attacking the other player directly with an acid or base card on the board deals damage based on the card's molarity.
+- When a player's health reaches 0, they lose.
 
 # Learning Aspects
 
@@ -78,8 +78,8 @@ This is a game for one person. They draw cards, play them, and use them to attac
 # Gameplay Objectives
 
 - Neutralize enemy cards:
-    - Description: When your moles of acid/base is greater than the enemy's base/acid, their card is neutralized, leaving less enemies on the board.
-    - Alignment: Learning to predict the outcome of reactions and know which reactant is left over in excess aligns with the learning objectives.
+    - Description: When your moles of acid/base is greater than the enemy's base/acid that you attack, their card is neutralized, leaving less enemies on the board and a greater chance at winning.
+    - Alignment: Learning to predict the outcome of reactions and know which reactant is left over in excess aligns with the learning objectives of predicting and calculating limiting reactants.
 - Attack the enemy:
     - Description: Beat the enemy by attacking it with cards. When its health reaches 0, you win.
     - Alignment: You have to go through all the learning objectives of being able to calculate and predict the outcomes of reactions to clear their board and beat the enemy.
